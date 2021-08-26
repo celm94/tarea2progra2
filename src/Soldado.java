@@ -1,9 +1,16 @@
+import java.util.Date;
+import java.util.List;
+
 public class Soldado {
 
     private int codigo;
     private String nombres;
     private String apellidos;
-    private String graduacion;
+    private Date graduacion;
+    private Compañia compañia;
+    private Cuerpo cuerpo;
+    private Cuartel cuartel;
+    private List<Servicio> servicios;
 
     public Soldado() {
     }
@@ -32,11 +39,11 @@ public class Soldado {
         this.apellidos = apellidos;
     }
 
-    public String getGraduacion() {
+    public Date getGraduacion() {
         return graduacion;
     }
 
-    public void setGraduacion(String graduacion) {
+    public void setGraduacion(Date graduacion) {
         this.graduacion = graduacion;
     }
 }

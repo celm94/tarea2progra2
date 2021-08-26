@@ -1,6 +1,10 @@
+import java.util.List;
+
 public class Compañia {
     private int numero;
     private String actividad;
+    private List<Soldado> soldadoslist;
+    private List<Cuartel> cuarteles;
 
 
     public Compañia() {

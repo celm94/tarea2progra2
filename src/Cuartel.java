@@ -1,7 +1,11 @@
+import java.util.List;
+
 public class Cuartel {
     private String codigoc;
     private String nombrec;
     private String ubicacionc;
+    private List<Compañia> compañias;
+    private List<Soldado> soldados;
 
     public Cuartel() {
     }

@@ -1,6 +1,9 @@
+import java.util.List;
+
 public class Cuerpo {
     private String codigoc;
     private String denominacion;
+    private List<Soldado> soldados;
 
     public Cuerpo() {
     }

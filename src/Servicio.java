@@ -1,6 +1,11 @@
+import java.util.Date;
+import java.util.List;
+
 public class Servicio {
     private int codigos;
     private String descripcion;
+    private Date fecha;
+    private List<Soldado> soldados;
 
     public Servicio() {
     }
